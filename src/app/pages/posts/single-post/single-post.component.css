@@ -1,0 +1,11 @@
+.post-info {
+  width: 600px;
+  margin: 20px;
+}
+
+.comment-title {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  text-decoration: underline;
+}

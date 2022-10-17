@@ -1,0 +1,13 @@
+<div class="content">
+  <img class="posts-bg" src="{{path}}" alt="{{altText}}"/>
+  <div class="post-info">
+    <h3>Title: {{post?.title}}</h3>
+    <p>{{post?.body}}</p>
+  </div>
+
+  <div class="post-info">
+    <p class="comment-title">Comments</p>
+    <app-comment *ngFor="let comment of comments " [comment]="comment"></app-comment>
+  </div>
+
+</div>

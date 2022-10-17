@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+  padding: 10px 25px;
+
+  background-color: #F0F0F0;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-title {
+  font-size: 25px;
+}
+
+.header-links > li {
+  display: inline;
+  float: left;
+
+  margin: 0;
+  padding: 10px;
+
+  text-align: center;
+
+}
+
+.header-links > li > a {
+  font-weight: 600;
+
+  transition: 0.2s;
+}
+
+.header-links > li > a:hover {
+  color: #8ECFD5;
+}
+
+.activeRoute {
+  color: #1B8BB9;
+}
+
+.header-api {
+  padding: 10px;
+
+  border: 1px dashed #1B8BB9;
+  border-radius: 10px;
+}

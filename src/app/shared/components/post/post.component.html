@@ -1,0 +1,11 @@
+<div class="post">
+  <img class="post-img" src="https://picsum.photos/id/{{post?.id}}/250/200"/>
+  <p class="post-title">
+    <a class="post-title__link" [routerLink]="['/posts', post?.id]">
+      <span>{{post?.title}}</span>
+    </a>
+  </p>
+  <p class="post-content">{{post?.body}}</p>
+
+  <p class="post-postedBy"><span>Posted by: </span> <a [routerLink]="['/users', post?.id]">{{user?.name}}</a></p>
+</div>

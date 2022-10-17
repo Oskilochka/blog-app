@@ -1,0 +1,11 @@
+.user-img {
+  border-radius: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-top: 30px;
+}

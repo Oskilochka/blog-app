@@ -1,0 +1,8 @@
+<div class="content">
+  <img class="posts-bg" src="{{path}}" alt="{{altText}}"/>
+  <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+  <div class="post-wrapper">
+    <app-post *ngFor="let post of posts | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }" [post]="post"></app-post>
+  </div>
+</div>
+
